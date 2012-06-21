@@ -1,0 +1,21 @@
+%html
+  %head
+    %title= 'Transit'
+    %script{type: 'text/javascript', src: '/javascripts/jquery.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/bootstrap.min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/bootstrap-typeahead.js'}
+    %script{type: 'text/javascript', src: '/javascripts/underscore-min.js'}
+    %script{type: 'text/javascript', src: '/javascripts/app.js'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/styles.css'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/bootstrap.min.css'}
+    %link{rel: 'stylesheet', type: "text/css", href: '/stylesheets/bootstrap-responsive.min.css'}
+  %body.app-content
+    .container-fluid
+      .span8
+        = yield
+    %footer.container-fluid
+      .span4.offset4
+        [ Built with
+        %a{href: "http://apify.heroku.com/resources/", target: '_blank'}
+          APIfy
+        ]
