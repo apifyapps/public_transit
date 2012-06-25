@@ -11,11 +11,11 @@ It is built using:
 
 ## How to Add Bus/Train routes for my City
 
-# Find List of bus routes in your city using Wikipedia or any site
-# Use [APIfy](http://apify.heroku.com/resources/new) to Create Bus/Train Routes API with following properties
-## route: Route code
-## start: Starting Stop/Station in Route
-## end: Ending Stop/Station in Route
-## via: Comma separated list of Intermediate Stops/Stations
-# Fork this Repo and change City name and Routes API JSON URL
-# Deploy in Heroku to use this App from your Mobile / Tablet / Laptop
+1. Find List of bus routes in your city using Wikipedia or any site
+2. Use [APIfy](http://apify.heroku.com/resources/new) to Create Bus/Train Routes API with following attributes:
+  * route: Route code
+  * start: Starting Stop/Station in Route
+  * end: Ending Stop/Station in Route
+  * via: Comma separated list of Intermediate Stops/Stations
+3. Fork this Repo and change City name and Routes API JSON URL
+4. Deploy in Heroku to use Transit App from your Mobile / Tablet / Laptop
