@@ -1,7 +1,16 @@
 .content
   .row
     .span8.title
-      Transit
+      Transit : 
+      %span.city
+  .row
+    .span4.caption
+      Built with
+      %a{href: "http://apify.heroku.com/resources/4fe8cd0659adf60001000028", target: '_blank'}
+        APIfy.
+      Coming Soon for more cities
+  .row
+    &nbsp;
   .row
     .span1.label_text
       From
@@ -18,4 +27,13 @@
     .span7
       %a.btn.btn-primary#find-route{href: '#'}
         Find Route
-  .row.route
+  .row
+    %table.route_table{style: 'display:none'}
+      %thead
+        %tr
+          %th.route-title
+            Route
+          %th.stop-title
+            Stop
+      %tbody.contents
+
