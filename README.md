@@ -1,6 +1,6 @@
 # Public Transit
 
-Public Transit is an easy to bootstrap transit app for finding bus / train routes in any city.
+Public Transit is an easy to bootstrap public transit app for finding bus / train routes in any city.
 
 It is built using:
 
