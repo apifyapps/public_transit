@@ -1,4 +1,4 @@
-var routesUrl = {'Chennai': "http://localhost:9393/api/chennai_bus_routes.json?callback=?"}
+var routesUrl = {'Chennai': "http://apify.heroku.com/api/chennai_bus_routes.json?callback=?"}
 var city = 'Chennai';
 
 var routes = [];
